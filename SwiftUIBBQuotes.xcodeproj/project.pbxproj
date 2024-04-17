@@ -15,6 +15,7 @@
 		EC4652612BD036CD00AE8068 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4652602BD036CD00AE8068 /* Quote.swift */; };
 		EC4652632BD0395800AE8068 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4652622BD0395800AE8068 /* Character.swift */; };
 		EC4652652BD03FB500AE8068 /* FetchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4652642BD03FB500AE8068 /* FetchController.swift */; };
+		ECF202082BD080EC00D4BDAD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF202072BD080EC00D4BDAD /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		EC4652602BD036CD00AE8068 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
 		EC4652622BD0395800AE8068 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		EC4652642BD03FB500AE8068 /* FetchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchController.swift; sourceTree = "<group>"; };
+		ECF202072BD080EC00D4BDAD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				EC4652642BD03FB500AE8068 /* FetchController.swift */,
 				EC4652602BD036CD00AE8068 /* Quote.swift */,
 				EC4652622BD0395800AE8068 /* Character.swift */,
+				ECF202072BD080EC00D4BDAD /* Constants.swift */,
 				EC46525E2BD02D9C00AE8068 /* samplecharacter.json */,
 				EC4652542BD006EC00AE8068 /* Assets.xcassets */,
 				EC4652562BD006EC00AE8068 /* Preview Content */,
@@ -155,6 +158,7 @@
 				EC4652512BD006EB00AE8068 /* SwiftUIBBQuotesApp.swift in Sources */,
 				EC4652652BD03FB500AE8068 /* FetchController.swift in Sources */,
 				EC4652632BD0395800AE8068 /* Character.swift in Sources */,
+				ECF202082BD080EC00D4BDAD /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

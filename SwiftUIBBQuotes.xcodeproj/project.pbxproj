@@ -11,6 +11,7 @@
 		EC4652532BD006EB00AE8068 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4652522BD006EB00AE8068 /* ContentView.swift */; };
 		EC4652552BD006EC00AE8068 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC4652542BD006EC00AE8068 /* Assets.xcassets */; };
 		EC4652582BD006EC00AE8068 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC4652572BD006EC00AE8068 /* Preview Assets.xcassets */; };
+		EC46525F2BD02D9C00AE8068 /* samplecharacter.json in Resources */ = {isa = PBXBuildFile; fileRef = EC46525E2BD02D9C00AE8068 /* samplecharacter.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		EC4652522BD006EB00AE8068 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EC4652542BD006EC00AE8068 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC4652572BD006EC00AE8068 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC46525E2BD02D9C00AE8068 /* samplecharacter.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = samplecharacter.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				EC4652502BD006EB00AE8068 /* SwiftUIBBQuotesApp.swift */,
 				EC4652522BD006EB00AE8068 /* ContentView.swift */,
+				EC46525E2BD02D9C00AE8068 /* samplecharacter.json */,
 				EC4652542BD006EC00AE8068 /* Assets.xcassets */,
 				EC4652562BD006EC00AE8068 /* Preview Content */,
 			);
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC4652582BD006EC00AE8068 /* Preview Assets.xcassets in Resources */,
+				EC46525F2BD02D9C00AE8068 /* samplecharacter.json in Resources */,
 				EC4652552BD006EC00AE8068 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

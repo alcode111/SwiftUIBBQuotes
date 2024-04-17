@@ -34,4 +34,10 @@ struct FetchController {
         
         return quote
     }
+    
+    func fetchCharacter(_ name: String) async throws -> Character {
+        let characterURL = baseURL.appending(path: "characters")
+        var characterComponents = URLComponents(url: characterURL, resolvingAgainstBaseURL: true)
+        let characterQueryItem = URLQueryItem(name: "name", value: name.replacingOccurrences(of: " ", with: "+"))
+    }
 }

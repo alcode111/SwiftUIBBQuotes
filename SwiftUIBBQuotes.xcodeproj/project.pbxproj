@@ -14,6 +14,7 @@
 		EC46525F2BD02D9C00AE8068 /* samplecharacter.json in Resources */ = {isa = PBXBuildFile; fileRef = EC46525E2BD02D9C00AE8068 /* samplecharacter.json */; };
 		EC4652612BD036CD00AE8068 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4652602BD036CD00AE8068 /* Quote.swift */; };
 		EC4652632BD0395800AE8068 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4652622BD0395800AE8068 /* Character.swift */; };
+		EC4652652BD03FB500AE8068 /* FetchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4652642BD03FB500AE8068 /* FetchController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		EC46525E2BD02D9C00AE8068 /* samplecharacter.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = samplecharacter.json; sourceTree = "<group>"; };
 		EC4652602BD036CD00AE8068 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
 		EC4652622BD0395800AE8068 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		EC4652642BD03FB500AE8068 /* FetchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			children = (
 				EC4652502BD006EB00AE8068 /* SwiftUIBBQuotesApp.swift */,
 				EC4652522BD006EB00AE8068 /* ContentView.swift */,
+				EC4652642BD03FB500AE8068 /* FetchController.swift */,
 				EC4652602BD036CD00AE8068 /* Quote.swift */,
 				EC4652622BD0395800AE8068 /* Character.swift */,
 				EC46525E2BD02D9C00AE8068 /* samplecharacter.json */,
@@ -150,6 +153,7 @@
 				EC4652532BD006EB00AE8068 /* ContentView.swift in Sources */,
 				EC4652612BD036CD00AE8068 /* Quote.swift in Sources */,
 				EC4652512BD006EB00AE8068 /* SwiftUIBBQuotesApp.swift in Sources */,
+				EC4652652BD03FB500AE8068 /* FetchController.swift in Sources */,
 				EC4652632BD0395800AE8068 /* Character.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

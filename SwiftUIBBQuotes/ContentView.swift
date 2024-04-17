@@ -24,6 +24,7 @@ struct ContentView: View {
             UITabBar.appearance().scrollEdgeAppearance =
             UITabBarAppearance()
         }
+        .preferredColorScheme(.dark)
     }
 }
 

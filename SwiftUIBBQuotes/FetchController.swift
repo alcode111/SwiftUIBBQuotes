@@ -17,7 +17,7 @@ struct FetchController {
     func fetchQuote(from show: String) async throws -> Quote {
         let quoteURL = baseURL.appending(path: "quotes/random")
         var quoteComponents = URLComponents(url: quoteURL, resolvingAgainstBaseURL: true)
-        let quoteQueryItem = URLQueryItem(name: "production", value: show.replacingOccurrences(of: " ", with: "+"))
+        let quoteQueryItem = URLQueryItem(name: "production", value: show.replaceSpaceWithPlus)
         quoteComponents?.queryItems = [quoteQueryItem]
         
         guard let fetchURL = quoteComponents?.url else {
@@ -38,6 +38,6 @@ struct FetchController {
     func fetchCharacter(_ name: String) async throws -> Character {
         let characterURL = baseURL.appending(path: "characters")
         var characterComponents = URLComponents(url: characterURL, resolvingAgainstBaseURL: true)
-        let characterQueryItem = URLQueryItem(name: "name", value: name.replacingOccurrences(of: " ", with: "+"))
+        let characterQueryItem = URLQueryItem(name: "name", value: name.replaceSpaceWithPlus)
     }
 }

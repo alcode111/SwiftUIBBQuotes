@@ -24,7 +24,7 @@ class ViewModel: ObservableObject {
         self.controller = controller
     }
     
-    func getData(from show: String) async {
+    func getData(for show: String) async {
         status = .fetching
         
         do {

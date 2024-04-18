@@ -18,12 +18,15 @@ struct QuoteView: View {
                         height: geo.size.height * 1.2)
                 
                 VStack {
+                    Spacer(minLength: 140)
+                    
                     Text("\" You either run from things, or you face them, Mr. White.\"")
+                        .minimumScaleFactor(0.5)
                         .multilineTextAlignment(.center)
                         .foregroundStyle(.white) // So the text is visible in light mode
                         .padding()
                         .background(.black.opacity(0.5))
-                        .clipShape(RoundedRectangle(cornerRadius: 25))
+                        .cornerRadius(25)
                         .padding(.horizontal)
                     
                     ZStack(alignment: .bottom) {
@@ -37,10 +40,27 @@ struct QuoteView: View {
                             .frame(maxWidth: .infinity)
                             .background(.ultraThinMaterial)
                     }
-                    .frame(width: geo.size.width / 1.1, height: geo.size.height / 1.8)
-                    .clipShape(RoundedRectangle(cornerRadius: 80))
+                    .frame(width: geo.size.width/1.1, height: geo.size.height/1.8)
+                    .cornerRadius(80)
+                    
+                    Spacer()
+                                                            
+                    Button {
+                        
+                    } label: {
+                        Text("Get Random Quote")
+                            .font(.title)
+                            .foregroundStyle(.white)
+                            .padding()
+                            .background(.breakingBadGreen)
+                            .cornerRadius(7)
+                            .shadow(color: .breakingBadYellow, radius: 2)
+                    }
+                    
+                    Spacer(minLength: 180)
+                    
                 }
-                .frame(width: geo.size.width, height: geo.size.height)
+                .frame(width: geo.size.width)
             }
             .frame(
                 width: geo.size.width,

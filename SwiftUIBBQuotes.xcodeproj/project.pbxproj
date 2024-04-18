@@ -16,6 +16,7 @@
 		EC4652632BD0395800AE8068 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4652622BD0395800AE8068 /* Character.swift */; };
 		EC4652652BD03FB500AE8068 /* FetchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4652642BD03FB500AE8068 /* FetchController.swift */; };
 		ECE1C2342BD1457100B14703 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE1C2332BD1457100B14703 /* ViewModel.swift */; };
+		ECE1C2362BD158E300B14703 /* QuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE1C2352BD158E300B14703 /* QuoteView.swift */; };
 		ECF202082BD080EC00D4BDAD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF202072BD080EC00D4BDAD /* Constants.swift */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,7 @@
 		EC4652622BD0395800AE8068 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		EC4652642BD03FB500AE8068 /* FetchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchController.swift; sourceTree = "<group>"; };
 		ECE1C2332BD1457100B14703 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		ECE1C2352BD158E300B14703 /* QuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteView.swift; sourceTree = "<group>"; };
 		ECF202072BD080EC00D4BDAD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -65,6 +67,7 @@
 			children = (
 				EC4652502BD006EB00AE8068 /* SwiftUIBBQuotesApp.swift */,
 				EC4652522BD006EB00AE8068 /* ContentView.swift */,
+				ECE1C2352BD158E300B14703 /* QuoteView.swift */,
 				ECE1C2332BD1457100B14703 /* ViewModel.swift */,
 				EC4652642BD03FB500AE8068 /* FetchController.swift */,
 				EC4652602BD036CD00AE8068 /* Quote.swift */,
@@ -159,6 +162,7 @@
 				EC4652532BD006EB00AE8068 /* ContentView.swift in Sources */,
 				EC4652612BD036CD00AE8068 /* Quote.swift in Sources */,
 				EC4652512BD006EB00AE8068 /* SwiftUIBBQuotesApp.swift in Sources */,
+				ECE1C2362BD158E300B14703 /* QuoteView.swift in Sources */,
 				EC4652652BD03FB500AE8068 /* FetchController.swift in Sources */,
 				EC4652632BD0395800AE8068 /* Character.swift in Sources */,
 				ECF202082BD080EC00D4BDAD /* Constants.swift in Sources */,

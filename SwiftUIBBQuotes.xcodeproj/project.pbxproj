@@ -17,6 +17,7 @@
 		EC4652652BD03FB500AE8068 /* FetchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4652642BD03FB500AE8068 /* FetchController.swift */; };
 		ECE1C2342BD1457100B14703 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE1C2332BD1457100B14703 /* ViewModel.swift */; };
 		ECE1C2362BD158E300B14703 /* QuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE1C2352BD158E300B14703 /* QuoteView.swift */; };
+		ECE1C2382BD2A3DA00B14703 /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE1C2372BD2A3DA00B14703 /* CharacterView.swift */; };
 		ECF202082BD080EC00D4BDAD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF202072BD080EC00D4BDAD /* Constants.swift */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,7 @@
 		EC4652642BD03FB500AE8068 /* FetchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchController.swift; sourceTree = "<group>"; };
 		ECE1C2332BD1457100B14703 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		ECE1C2352BD158E300B14703 /* QuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteView.swift; sourceTree = "<group>"; };
+		ECE1C2372BD2A3DA00B14703 /* CharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterView.swift; sourceTree = "<group>"; };
 		ECF202072BD080EC00D4BDAD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -68,6 +70,7 @@
 				EC4652502BD006EB00AE8068 /* SwiftUIBBQuotesApp.swift */,
 				EC4652522BD006EB00AE8068 /* ContentView.swift */,
 				ECE1C2352BD158E300B14703 /* QuoteView.swift */,
+				ECE1C2372BD2A3DA00B14703 /* CharacterView.swift */,
 				ECE1C2332BD1457100B14703 /* ViewModel.swift */,
 				EC4652642BD03FB500AE8068 /* FetchController.swift */,
 				EC4652602BD036CD00AE8068 /* Quote.swift */,
@@ -165,6 +168,7 @@
 				ECE1C2362BD158E300B14703 /* QuoteView.swift in Sources */,
 				EC4652652BD03FB500AE8068 /* FetchController.swift in Sources */,
 				EC4652632BD0395800AE8068 /* Character.swift in Sources */,
+				ECE1C2382BD2A3DA00B14703 /* CharacterView.swift in Sources */,
 				ECF202082BD080EC00D4BDAD /* Constants.swift in Sources */,
 				ECE1C2342BD1457100B14703 /* ViewModel.swift in Sources */,
 			);
@@ -303,6 +307,7 @@
 				DEVELOPMENT_TEAM = 9RY3YFMNU4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Say My Name";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -332,6 +337,7 @@
 				DEVELOPMENT_TEAM = 9RY3YFMNU4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Say My Name";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

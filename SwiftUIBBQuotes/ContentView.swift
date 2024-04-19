@@ -17,7 +17,7 @@ struct ContentView: View {
             
             QuoteView(show: Constants.bcsName)
                 .tabItem {
-                    Label(Constants.bbName, systemImage: "briefcase")
+                    Label(Constants.bcsName, systemImage: "briefcase")
                 }
         }
         .onAppear {

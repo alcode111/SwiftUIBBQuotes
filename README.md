@@ -8,7 +8,6 @@ BBQuotes is a SwiftUI application that fetches and displays random quotes from t
 
 ## Features
 
-- **API**: Utilizes the Breaking Bad API to fetch random quotes and character information, seamlessly integrated within the ViewModel and FetchController components.
 - **Random Quote Display**: Tap the "Get Random Quote" button to fetch and display a random quote from the selected show.
 - **Character Information**: View the character name and an image of the character associated with the displayed quote.
 - **Dynamic Theming**: Supports both light and dark mode for optimal viewing experience.
@@ -20,6 +19,7 @@ BBQuotes is a SwiftUI application that fetches and displays random quotes from t
 
 ## Technologies Used
 
+- **API**: Utilizes the Breaking Bad API to fetch random quotes and character information, seamlessly integrated within the ViewModel and FetchController components.
 - **SwiftUI**: A modern framework for building user interfaces across all Apple platforms.
 - **Xcode**: An integrated development environment (IDE) for macOS containing a suite of software development tools.
 - **Swift**: A powerful and intuitive programming language for macOS, iOS, watchOS, and tvOS development.

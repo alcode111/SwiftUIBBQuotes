@@ -27,7 +27,6 @@ BBQuotes is a SwiftUI application that fetches and displays random quotes from t
 ## Credits
 
 - This project is a tutorial from Kenneth Jones' [UDEMY Course](https://www.udemy.com/course/ios-15-app-development-with-swiftui-3-and-swift-5/?couponCode=KEEPLEARNING): "iOS 17, SwiftUI 5, & Swift 5.9: Build iOS Apps From Scratch".
-- Original project idea and design by Kenneth Jones.
 - This project is inspired by the popular TV shows "Breaking Bad" and "Better Call Saul".
 - The Breaking Bad API used in this project is provided by [BREAKING BAD API](https://breaking-bad-api-six.vercel.app/api).
 
